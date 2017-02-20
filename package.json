@@ -1,0 +1,34 @@
+{
+  "name": "leapfin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install; webpack; node ./server/index.js",
+    "dev": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "ipware": "^1.0.0",
+    "jsonfile": "^2.4.0",
+    "libphonenumber-js": "^0.3.6",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.17.0",
+    "moment": "^2.17.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-tap-event-plugin": "^2.0.1",
+    "whatwg-fetch": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-loader": "^6.3.2",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "webpack": "^2.2.1"
+  }
+}
